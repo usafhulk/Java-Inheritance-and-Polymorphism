@@ -13,5 +13,11 @@ public class Main {
 
         tesla.adjustSeat(2);
 
+        SportsCar ferrari =  new SportsCar(
+                "Ferrari",
+                "F-8 Tributo",
+                "Yellow");
+        ferrari.activateTurboBoost();
+        System.out.println(ferrari.model + " is running at " + ferrari.getSpeed() + " miles per hour.");
     }
 }
